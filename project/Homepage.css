@@ -1,0 +1,25 @@
+h2{
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+    background-color: blue;
+}
+button{
+    color:brown
+}
+h1{
+  background-color: yellow;
+}
+.marquee h1{
+  display: inline-block;
+  margin-right: 100%;
+  animation: marquee 10s linear infinite;
+}
+@keyframes marquee{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}

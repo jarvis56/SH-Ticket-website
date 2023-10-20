@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-decoration:underline;
+}
+#Tottenham{
+    color:blue;
+    border-style:double
+}
+h2{
+text-align: center;
+font-style:italic;
+letter-spacing: 1px;
+text-decoration:underline
+}
+#Liverpool{
+    color:red;
+    border-style: groove;
+}
+a:link{
+    color: rgb(226, 43, 217);
+}
+a:visited{
+    color: blue;
+}
+#memberships {
+    color:red;
+}
+#liverpoolfc{
+    color: red;
+}
+*{
+    box-sizing: border-box;
+}
+.footballfclinks{
+    overflow: hidden;
+    background-color: chartreuse;
+}
+.footballfclinks a{
+    float: left;
+    display: block;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.footballfclinks a:hover{
+    background-color: cornflowerblue;
+    color:chartreuse
+}
+h3{
+    background-color: greenyellow;
+}
+.marquee h3{
+    display: inline-block;
+    margin: right 100%;
+    animation: marquee 10s linear infinite;
+    }
+    @keyframes marquee{
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+

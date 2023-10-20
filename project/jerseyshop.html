@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jerseyshop.css">
+    <script src="jerseyshop.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Shop</title>
+</head>
+<body>
+    <h1><img src="images/Ticket.net.jpg" width="80"> SH Online Shop</h1>
+    <hr>
+    <div id="store">
+    <div class="product" id="man city jersey">
+        <h2><img src="images/mancity.JPEG" width="100"> Manchester City Home Jersey</h2>
+        <img src="images/city jersey.jpg" width="200">
+        <p>Price: £80.00</p>
+        <button onclick="addToCart('man city jersey',80.00)">Add to Bag</button>
+        <hr>
+    </div>
+    <div class="product" id="man united jersey">
+        <h2><img src="images/manchester united.png" width="100"> Manchester United Home Jersey</h2>
+        <img src="images/united jersey.jpg" width="200">
+        <p>Price: £88.00</p>
+        <button onclick="addToCart('man united jersey',88.00)">Add To Bag</button>
+        <hr>
+    </div>
+    <div class="product" id="Tottenham Hotspurs jersey">
+        <h2><img src="images/Tottenham Hotspurs.png" width="100"> Tottenham Hotspurs Home Jersey</h2>
+        <img src="images/tottenham jersey.jpg" width="200">
+        <p>Price: £90.00</p>
+        <button onclick="addToCart('Tottenham Hotspurs jersey',90.00)">Add To Bag</button>
+        <hr>
+    </div>
+    <div class="product" id="Brighton jersey">
+        <h2><img src="images/Brighton FC.png" width="120">Brighton&Hove Albion Home Jersey</h2>
+        <img src="images/brighton jersey.jpg" width="200">
+        <p>Price: £50.00</p>
+        <button onclick="addToCart('Brighton jersey',50.00)">Add To Bag</button>
+        <hr>
+        </div>
+        <div class="product" id="liverpool jersey">
+            <h2><img src="images/liverpool.jpg" width="100">Liverpool Fc Home Jersey</h2>
+            <img src="images/liverpool jersey.jpg" width="200">
+            <p>Price: £75.00</p>
+            <button onclick="addToCart('liverpool jersey',75.00)">Add To Bag</button>
+            <hr>
+        </div>
+    </div>
+    <div class="cart" style="height: 200px;">
+        <h2><img src="images/shopping bag.png" width="100"> Shopping Bag</h2>
+        <ul id="cartItems"></ul>
+        <p>Total: £<span id="cartTotal">0.00</span></p>
+        <button onclick="checkout()">Payment</button>
+    </div>
+    <hr>
+    <div>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2023 SH Ticket Net, Inc</p>
+
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="SH ticket.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="Fixtures.Html" class="nav-link px-2 text-body-secondary">Fixtures</a></li>
+                <li class="nav-item"><a href="About.html" class="nav-link px-2 text-body-secondary">About Us</a></li>
+                <li class="nav-item"><a href="contact us.html" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+                <li class="nav-item"><a href="football clubs.html" class="nav-link px-2 text-body-secondary">(Man U/Brighton)Fc</a></li>
+                <li class="nav-item"><a href="football club.html" class="nav-link px-2 text-body-secondary">(Tottenham/Liverpool)Fc</a></li>
+            </ul>
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    padding-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product{
+    border: 1px;
+}
+.cart{
+    border: 1px;
+    padding: 10px;
+}
+button{
+    background-color:black;
+    color:aqua;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button.remove{
+    background-color: aquamarine;
+}
+button:hover{
+    background-color: gold;
+}
