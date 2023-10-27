@@ -19,7 +19,7 @@ function addToCart(productName, price) {
        
 
     
-function removeFromCart(productName) { 
+function removeFromCart(productName) {  //tickets
     const index = cart.findIndex(item => item.productName === productName); 
 
     if (index !== -1) {   

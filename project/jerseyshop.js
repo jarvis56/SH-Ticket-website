@@ -33,20 +33,20 @@ function removeFromCart(productName) {
     }
 }
 
-function updateCart() {
+function updateCart() { 
     const cartItems = document.getElementById("cartItems"); 
     cartItems.innerHTML = "";
 
     let total = 0; 
 
-    cart.forEach(item => {    
+    cart.forEach(item => {    //How many product you choose
         const cartItem = document.createElement("li"); 
         const removeButton = document.createElement("button"); 
         removeButton.textContent = "Remove"; 
         removeButton.className = "remove"; 
         removeButton.onclick = () => removeFromCart(item.productName);  
 
-        cartItem.textContent = `${item.productName} x${item.quantity} - £${(item.price * item.quantity).toFixed(2)}`; 
+        cartItem.textContent = `${item.productName} x${item.quantity} - £${(item.price * item.quantity).toFixed(2)}`;  //calculate the price
         
         cartItem.appendChild(removeButton);
         cartItems.appendChild(cartItem);
